@@ -1,0 +1,248 @@
+/* Основные параметры */
+body {
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+    font-family: "Roboto";
+    letter-spacing: 0.03em;
+}
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --font-header-footer: #2f303a;
+    --white-color-text: #ffffff;
+}
+/* Оформление логотипа */
+.zero-logo {
+    text-decoration: none;
+}
+.blue-web {
+    color: #2196f3;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.black-studio {
+    color: #000000;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.white-studio {
+    color: var(--white-color-text);
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.logo :hover,
+:focus,
+:active {
+    color: #2196f3;
+    outline: 0;
+    outline-offset: 0;
+    text-decoration: none;
+}
+/* Навигация */
+.text-nav {
+    color: var(--primary-text-color);
+}
+
+.nav-switch :hover,
+.nav-switch :focus {
+    color: #2196f3;
+    outline: 0;
+    outline-offset: 0;
+    text-decoration: none;
+}
+
+.nav-switch {
+    text-decoration: none;
+}
+.nav {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+/* Подстветка */
+.nav :hover,
+.nav :focus {
+    color: #2196f3;
+    outline: 0;
+    outline-offset: 0;
+}
+/* Контакты */
+.contact-up :hover,
+.contact-up :focus {
+    color: #2196f3;
+    outline: 0;
+    outline-offset: 0;
+}
+.contact-up {
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.ligh {
+    color: #2196f3;
+}
+.title-section,
+.nav,
+.footer,
+.projects,
+.facilities,
+.contact-up,
+.images {
+    list-style: none;
+} 
+/* Секция 1 */
+.sersive {
+    background-color: #2f303a;
+}
+
+.sersive-title {
+    color: var(--white-color-text);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+/* Оформление кнопки */
+.button {
+    color: var(--white-color-text);
+    background-color: #2196f3;
+    font-family: "Roboto";
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+/* Секция 2 - Facilities */
+.facilities-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.about-facilities {
+    color: var(--secondary-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+}
+/* Секция 3 */
+.title-section {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+/* Секция 4 - workers */
+.workers {
+    background: #F5F4FA;
+    list-style: none;
+}
+
+.workers-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.name {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.description {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+}
+/* Оформление подвала */
+.footer {
+    background-color: #2f303a;
+    font-style: normal;
+}
+
+.address {
+    color: var(--white-color-text);
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.contact-down {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+/* Оформление стилей Портфолио */
+
+.button-switch:hover,
+.button-switch:focus {
+    color: var(--white-color-text);
+    background-color: #2196f3;
+    border: none;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.switch {
+    color: var(--primary-text-color);
+    background-color: #f5f4fa;
+    font-family: "Roboto";
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    cursor: pointer;
+}
+
+.projects-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.about-project {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--secondary-text-color);
+    line-height: 1.88;
+}
