@@ -35,10 +35,11 @@ h6,
 p,
 ul {
   margin: 0;
+  padding: 0;
 }
 
 .container {
-  /* width: 1200px; */
+  min-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -46,7 +47,7 @@ ul {
 }
 
 /* HEADER */
-.container header {
+ header .container {
   display: flex;
   align-items: center;
   padding-top: 20px;
@@ -56,9 +57,10 @@ ul {
 .nav-list {
   display: flex;
   align-items: center;
-  margin-left: 90px;
 }
-
+.nav-list-studio {
+ margin-left: 90px;
+}
 .border-header {
   border-bottom: 1px solid #ececec;
 }
@@ -66,6 +68,7 @@ ul {
 /* Оформление логотипа */
 .zero-logo {
   text-decoration: none;
+  padding-left: 215px;
 }
 
 .blue-web {
@@ -107,13 +110,7 @@ ul {
   margin-left: 50px;
 }
 
-/* .nav li,
-/* .contact-up li {
-    justify-content: flex-end
-    display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
-*/ .nav-switch :hover,
+.nav-switch :hover,
 .nav-switch :focus {
   color: #2196f3;
   outline: 0;
@@ -132,7 +129,6 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  margin-right: 330px;
 }
 
 /* Подстветка */
@@ -160,7 +156,10 @@ ul {
   text-decoration: none;
   margin-left: 50px;
 }
-
+.contact-list {
+display: flex;
+ margin-left: 220px;
+}
 .light {
   color: #2196f3;
 }
@@ -176,12 +175,15 @@ ul {
 }
 
 /* Общие значения для секций */
-.section {
+ .section {
   padding-top: 94px;
-  padding-bottom: 94px;
-}
+  padding-bottom: 94px; 
+} 
 
 /* Секция 1 */
+.section-hero {
+  padding: 200px;
+}
 .sersive {
   background-color: #2f303a;
 }
@@ -214,6 +216,7 @@ ul {
   cursor: pointer;
   display: block;
   margin: 0 auto;
+  padding: 10px 32px;
 }
 
 /* HIDDEN TITLE */
@@ -239,10 +242,13 @@ ul {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-
+.section-facilities {
+  padding-top: 94px; 
+}
 .facilities {
   justify-content: space-between;
-  padding: 0 216px;
+  padding-left: 180px;
+  padding-right: 180px;
 }
 
 .about-facilities {
@@ -298,12 +304,14 @@ ul {
 .footer {
   background-color: #2f303a;
   font-style: normal;
-}
-
-.footer-logo {
   padding-top: 60px;
-  padding-left: 216px;
   padding-bottom: 20px;
+}
+.footer-item {
+  margin-bottom: 10px;
+}
+.footer-logo {
+  padding-left: 216px;
 }
 
 .footer-list {
@@ -357,10 +365,11 @@ ul {
 .portfolio-button {
   display: flex;
   justify-content: center;
+
 }
 
 .button-possition {
-  padding: 0 8px;
+  padding: 0 22px;
   margin-bottom: 59px;
 }
 
