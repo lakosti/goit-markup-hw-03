@@ -68,7 +68,6 @@ ul {
 /* Оформление логотипа */
 .zero-logo {
   text-decoration: none;
-  /* padding-left: 215px; */
 }
 
 .blue-web {
@@ -322,9 +321,7 @@ padding-bottom: 200px;
   margin-bottom: 10px;
   /* margin-top: 20px; */
 }
-.container .footer-logo {
-  margin-bottom: -50px;
-}
+
 .address {
   color: var(--white-color-text);
   font-size: 14px;
