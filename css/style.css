@@ -245,18 +245,20 @@ padding-bottom: 200px;
 .section-facilities {
   padding-top: 94px; 
 }
-.facilities {
-  justify-content: space-between;
-  /* padding-left: 180px;
-  padding-right: 180px; */
-}
+
 .facilities-list {
   width: 270px;
+  margin-right: 30px;
 }
-.about-facilities {
+.facilities-list:last-child {
+  margin-right: 0px;
+}
+.facilities-title .about-facilities {
   color: var(--secondary-text-color);
   font-size: 14px;
   line-height: 1.71;
+  width: 270px;
+  margin-right: 30px;
 }
 
 /* Секция 3 */
@@ -284,10 +286,6 @@ padding-bottom: 200px;
   margin-bottom: 50px;
 }
 
-/* .image-list:not(last-child) {
-    margin-left: 50px;
-} */
-
 .name {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -312,14 +310,9 @@ padding-bottom: 200px;
 .footer-item {
   margin-bottom: 10px;
 }
-/* .footer-logo {
-  padding-left: 216px;
-} */
 
 .footer-list {
-  /* padding-left: 216px; */
   margin-bottom: 10px;
-  /* margin-top: 20px; */
 }
 
 .address {
@@ -412,7 +405,11 @@ margin-bottom: 50px;
 }
 
 .image-list {
-  margin-left: 30px;
+  margin-right: 30px;
+  width: 270px;
+}
+.image-list:last-child {
+margin-right: 0;
 }
 
 /* UL */
