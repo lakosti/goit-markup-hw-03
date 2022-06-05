@@ -288,6 +288,13 @@ header .container {
   text-align: center;
   margin-bottom: 50px;
 }
+.border-workers {
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
+  width: 270px;
+  text-align: center;
+  padding: 30px 30px 30px 30px;
+}
 
 .name {
   color: var(--primary-text-color);
@@ -363,6 +370,7 @@ header .container {
   line-height: 1.62;
   text-align: center;
   cursor: pointer;
+  height: 38px;
   padding: 6px 22px;
 }
 
@@ -432,12 +440,4 @@ header .container {
   width: 370px;
   margin-left: 30px;
   margin-bottom: 30px;
-}
-
-.border-workers {
-  border: 1px solid #ffffff;
-  background-color: #ffffff;
-  width: 270px;
-  text-align: center;
-  padding: 30px 30px 30px 30px;
 }
